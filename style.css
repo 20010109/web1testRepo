@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+
+  }
+  
+  .Header {
+    margin-top: 0px;
+    width: 100%;
+    height: 100px;
+    position: static;
+    overflow: hidden;
+    background-color: #FFE4C9;
+    
+  }
+
+  .Header img{
+    margin-left: 150px;
+    width: 150px;
+    float: left;
+    background-size: 150px;
+    
+  }
+  
+  .Header h1 {
+    margin-top: 10px;
+    float: left;
+    font-size: 50px;
+    font-family: cursive;
+    color: black;
+  }
+    
+    .Navbar h3{
+      margin: 50px;
+      display: inline;
+      float:right;
+    }
+
+
+
+
+
+  /* Sidebar */
+
+  .Sidebar{
+    height: 100%; 
+    width: 150px; 
+    position: fixed; 
+    z-index: 1;
+    top: 0; 
+    left: 0;
+    background-color: #6f4d4d; 
+    overflow: hidden; 
+    padding-top: 20px;
+  }
+
+  .Sidebar h1{
+    margin: 30px;
+    display: list-item;
+  }
+  
+  .Sidebar h1:hover{
+    color: white;
+    background-color: black;
+    width: auto;
+    
+    
+  }
+
+/* Content */
+
+.Content{
+    float: inherit;
+    margin-left: 160px;
+}
+
+.pic1{
+    float:left;
+}
+
+.paragraph1 {
+    float: right;
+    margin: 50px;
+    
+}
+
+
+
+
+
+  /* Footer */
+
+  .Footer{
+    overflow: hidden;
+    background-color: #BED1CF;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+  }
+  .Footer h3{
+    margin-left: 150px;
+  }
